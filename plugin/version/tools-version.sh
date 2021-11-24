@@ -7,3 +7,7 @@ function launch() {
     out "git version:\t$(git rev-parse HEAD)"
   cd "$TOOLS_WORK_PATH" >/dev/null 2>&1|| exit
 }
+
+function tools_help() {
+  echo "显示此工具版本号"
+}

@@ -6,7 +6,6 @@ function launch() {
   echo "$*"
 }
 
-
 function tools_help() {
-  java --version
+  echo "无"
 }
