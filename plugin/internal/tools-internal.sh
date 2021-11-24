@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
-. "$UTILS_BIN_PATH/boot-env.sh"
+
+include "output"
+
+function launch() {
+  echo "$*"
+}
+
 
 function tools_help() {
   java --version
 }
-export SHORT_HELP="Java 帮助"
